@@ -220,3 +220,32 @@ h3 {
 .footer__copyright {
   text-align: center;
 }
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 640px) {
+  .feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .feature__img {
+    margin-bottom: 0;
+  }
+
+  .feature__img--right {
+    order: 10;
+    margin-left: 5rem;
+  }
+
+  .feature__img--left {
+    order: -1;
+    margin-right: 5rem;
+  }
+
+  .feature__content {
+    padding: 0 3rem;
+  }
+}
