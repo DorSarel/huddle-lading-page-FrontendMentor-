@@ -33,6 +33,10 @@ img {
   display: block;
 }
 
+a {
+  color: #fff;
+}
+
 /* LAYOUT */
 
 .container {
@@ -66,7 +70,9 @@ img {
 
 .footer {
   background-color: var(--cyan-dark);
-  padding: 10rem;
+  padding: 12rem 2rem 4rem 2rem;
+  color: #fff;
+  font-size: 1.25rem;
 }
 
 /* TYPOGRAPHY */
@@ -144,4 +150,46 @@ h3 {
 .cta__title {
   font-size: 1.75rem;
   margin-bottom: 2rem;
+}
+
+/* FOOTER */
+
+.footer__img {
+  height: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.contact__item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.contact__img {
+  height: 1.5rem;
+  margin-right: 2rem;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.75rem 0;
+  display: inline-block;
+}
+
+.footer__copyright {
+  text-align: center;
 }
